@@ -1,0 +1,8 @@
+#!/bin/sh
+######################################
+#### NOTICE ####
+#This build script has been modified from rwxrobs script to link with my stow installation scripts. Rather than relying on rwxrobs docker image to be up to date this has been added to my own dockerhub profile. All work and code is purely Robs and i thank him for the work he has put into this.
+######################################
+
+docker build  -t lynx -t qwertimer/lynx .
+docker push qwertimer/lynx
